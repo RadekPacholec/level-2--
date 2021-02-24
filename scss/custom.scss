@@ -1,0 +1,114 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+$font-type: 'Roboto', sans-serif;
+$padding-color: #F0F0F0;
+$background-color: #FFFFFF;
+$dark-font-color: #121212;
+$bright-font-color: #FFFFFF;
+$button-color: #E4C1AE;
+
+body {
+    font-family: $font-type;
+}
+
+.custom-container{
+    display: inline-block;
+    max-width: 1280px;
+    padding: calc(min(100px, 7.8125%)) calc(min(70px, 5.46875%));
+    background-color: $padding-color;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-container{
+    width: 61.4035088%;
+    margin: 15.0877193% 19.2982456% 0 19.2982456%;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-circle{
+    border-radius: 25px;
+    background-color: $button-color;
+    color: $bright-font-color;
+    font-weight: bold;
+    padding: 10px 43px;
+    margin-bottom: 51%;
+    margin-top: 25.92%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+p{
+    font: normal normal 300 16px/26px ;
+    margin-top: 12.2857143%;
+    margin-bottom: 0;
+}
+
+.col-md-6, .col-12{
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+    background-color: #FFFFFF;
+}
